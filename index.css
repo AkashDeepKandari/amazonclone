@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100vw;
+    height: 50px;
+    background: black;
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 113px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+.logo img:hover{
+    border: 1px solid white;
+}
+.loc{
+    width: 202px;
+    height: 40px;
+    color: white;
+    display: flex;
+    font-size: 13px;
+    margin-top: 2px;
+    margin-left: 32px;
+}
+.loc img{
+    width: 49px;
+    height: 38px;
+    margin-top: 5px;
+  }
+
+.loc:hover{
+    border: 1px solid white;
+}
+.loc p{
+    margin-top: 20px;
+}
+.drpsearch {
+    width: 3rem;
+    height: 37px;
+    background-color: rgb(181, 172, 172);
+    font-size: 17px;
+    margin-top: -4px;
+    margin-left: 16px;
+  }
+  .searchbar:hover{
+        border: 4px solid #ffa234;
+  }
+  .searchbar{
+    width: 471px;
+    height: 38px;
+    background-color: white
+  }
+  .nav-input{
+    width: 450px;
+    height: 34px;
+    margin-left: -2px;
+    padding-left: 4px;
+
+  }
+  .searchlogo{
+    width: 36px;
+    height: 38px;
+    background-color: #ffa234;
+    position: relative;
+    left: -36px;
+  }
+  .searchlogo img{
+    width: 26px;
+    margin: 7px;
+  }
