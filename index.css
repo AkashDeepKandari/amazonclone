@@ -53,9 +53,6 @@ header{
     position: relative;
   cursor: pointer;
 }
-.searchbar:hover{
-    border: 4px solid #ffa234;
-}
 .searchbar{
       cursor: pointer;
       width: 505px;
@@ -94,12 +91,10 @@ header{
     .lan{
         background-color: black;
     }
-    .lan:hover{
-        border: 1px solid white;
-    }
+
     .account select{
         width: 135px;
-        height: 41px;
+        height: 38px;
         cursor: pointer;
         color: white;
         background-color: black;
@@ -107,9 +102,12 @@ header{
         font-size: 11px;
       }
     .account{
-        width: 137px;
-        height: 42px;
+        width: 150px;
+        height: 45px;
         margin-left: 19px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .account:hover{
         border: 1px solid white;
@@ -126,3 +124,56 @@ header{
     .order:hover{
         border: 1px solid white;
     }
+    .cart{
+        background-color: rgb(255, 255, 255);
+        margin-left: 10px;
+        
+    }
+    .cart img{
+        height: 33px;
+        width: 40px;
+    }
+    .slider{
+        display: flex;
+        background-color: antiquewhite;
+        width: 1000vw;
+        height: 70vh;
+overflow: hidden;
+    }
+    .slider img{
+        width: 100vw;
+        height: 60vh;
+    }
+.img1{
+    animation: slide 4s forwards infinite;
+}ea
+.img2{
+    animation: slide1 4s linear infinite;
+}
+.img3{
+    animation: slide2 4s linear infinite;
+}
+@keyframes slide {
+    0%{
+        transform: translate(0vw);
+    }
+    100%{
+        transform: translate(100vw);
+    }
+}
+@keyframes slide1 {
+    0%{
+        transform: translate(-100vw);
+    }
+    100%{
+        transform: translate(0vw);
+    }
+}
+@keyframes slide2 {
+    0%{
+        transform: translate(0px);
+    }
+    100%{
+        transform: translate(100vw);
+    }
+}
