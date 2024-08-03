@@ -136,23 +136,24 @@ header{
     .slider{
         display: flex;
         background-color: antiquewhite;
-        width: 1000vw;
+        width: 100vw;
         height: 70vh;
-overflow: hidden;
+        overflow: hidden;
+        
     }
     .slider img{
         width: 100vw;
         height: 60vh;
     }
 .img1{
-    animation: slide 4s forwards infinite;
-}ea
+    animation: slide 5s linear infinite;
+}
 .img2{
-    animation: slide1 4s linear infinite;
+    animation: slide1 5s linear infinite;
 }
-.img3{
-    animation: slide2 4s linear infinite;
-}
+/* .img3{
+    animation: slide2 7s linear infinite;
+} */
 @keyframes slide {
     0%{
         transform: translate(0vw);
@@ -171,9 +172,9 @@ overflow: hidden;
 }
 @keyframes slide2 {
     0%{
-        transform: translate(0px);
+        transform: translate(-150vw);
     }
     100%{
-        transform: translate(100vw);
+        transform: translate(0vw);
     }
 }
